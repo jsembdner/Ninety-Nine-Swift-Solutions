@@ -27,5 +27,13 @@ class NinetyNineSwiftSolutionsTests: XCTestCase {
 		XCTAssertEqual(9, tenNumList.pennultimate)
 		XCTAssertEqual(nil, oneNumList.pennultimate)
 	}
+	
+	func testP03() {
+		XCTAssertEqual(3, tenNumList[2])
+		XCTAssertEqual(1, oneNumList[0])
+		
+		XCTAssertEqual(nil, tenNumList[-1])
+		XCTAssertEqual(nil, oneNumList[1])
+	}
     
 }
