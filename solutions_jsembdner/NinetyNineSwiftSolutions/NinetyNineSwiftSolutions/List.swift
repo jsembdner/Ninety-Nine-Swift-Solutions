@@ -1,5 +1,5 @@
 
-public class List<T> {
+public class List<T : Equatable>: Equatable {
 	var value: T
 	var nextItem: List<T>?
 	
@@ -15,4 +15,9 @@ public class List<T> {
 		value = values.removeFirst()
 		nextItem = List(values)
 	}
+	
+}
+
+public func == <T : Equatable>(lhs: List<T>, rhs: List<T>) -> Bool {
+	return lhs.value == rhs.value && lhs.nextItem == rhs.nextItem
 }

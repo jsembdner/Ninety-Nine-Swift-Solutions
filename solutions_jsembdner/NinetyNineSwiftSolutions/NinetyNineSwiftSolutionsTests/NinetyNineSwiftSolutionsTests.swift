@@ -5,11 +5,13 @@ import XCTest
 class NinetyNineSwiftSolutionsTests: XCTestCase {
 	
 	var tenNumList: List<Int>!
+	var tenNumListReversed: List<Int>!
 	var oneNumList: List<Int>!
 	
     override func setUp() {
         super.setUp()
 		tenNumList = List.init(Array(1...10))
+		tenNumListReversed = List.init(Array(1...10).reversed())
 		oneNumList = List.init([1])
     }
     
@@ -39,6 +41,13 @@ class NinetyNineSwiftSolutionsTests: XCTestCase {
 	func testP04() {
 		XCTAssertEqual(10, tenNumList.length)
 		XCTAssertEqual(1, oneNumList.length)
+	}
+	
+	func testP05() {
+		tenNumList.reverse()
+		oneNumList.reverse()
+		XCTAssertEqual(tenNumListReversed, tenNumList)
+		XCTAssertEqual(List([1]), oneNumList)
 	}
     
 }

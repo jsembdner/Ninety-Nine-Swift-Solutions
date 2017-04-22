@@ -15,6 +15,7 @@
 		3DC624CD1EABB30900230BE2 /* p02_jsembdner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC624CC1EABB30900230BE2 /* p02_jsembdner.swift */; };
 		3DC624CF1EABE4AB00230BE2 /* p03_jsembdner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC624CE1EABE4AB00230BE2 /* p03_jsembdner.swift */; };
 		3DC624D11EABE7E400230BE2 /* p04_jsembdner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC624D01EABE7E400230BE2 /* p04_jsembdner.swift */; };
+		3DC624D31EABE8CD00230BE2 /* p05_jsembdner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC624D21EABE8CD00230BE2 /* p05_jsembdner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		3DC624CC1EABB30900230BE2 /* p02_jsembdner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = p02_jsembdner.swift; sourceTree = "<group>"; };
 		3DC624CE1EABE4AB00230BE2 /* p03_jsembdner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = p03_jsembdner.swift; sourceTree = "<group>"; };
 		3DC624D01EABE7E400230BE2 /* p04_jsembdner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = p04_jsembdner.swift; sourceTree = "<group>"; };
+		3DC624D21EABE8CD00230BE2 /* p05_jsembdner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = p05_jsembdner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				3DC624CC1EABB30900230BE2 /* p02_jsembdner.swift */,
 				3DC624CE1EABE4AB00230BE2 /* p03_jsembdner.swift */,
 				3DC624D01EABE7E400230BE2 /* p04_jsembdner.swift */,
+				3DC624D21EABE8CD00230BE2 /* p05_jsembdner.swift */,
 			);
 			name = Solutions;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				3DC624D11EABE7E400230BE2 /* p04_jsembdner.swift in Sources */,
 				3DC624CB1EABAC8F00230BE2 /* p01_jsembdner.swift in Sources */,
+				3DC624D31EABE8CD00230BE2 /* p05_jsembdner.swift in Sources */,
 				3DC624CD1EABB30900230BE2 /* p02_jsembdner.swift in Sources */,
 				3DC624CF1EABE4AB00230BE2 /* p03_jsembdner.swift in Sources */,
 				3DC624C81EABABDC00230BE2 /* List.swift in Sources */,
