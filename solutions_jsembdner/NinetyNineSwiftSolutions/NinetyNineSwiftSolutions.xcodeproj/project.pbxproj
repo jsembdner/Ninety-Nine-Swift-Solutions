@@ -11,6 +11,7 @@
 		3DC624BC1EABABCE00230BE2 /* NinetyNineSwiftSolutionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC624BB1EABABCE00230BE2 /* NinetyNineSwiftSolutionsTests.swift */; };
 		3DC624BE1EABABCE00230BE2 /* NinetyNineSwiftSolutions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC624B01EABABCE00230BE2 /* NinetyNineSwiftSolutions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DC624C81EABABDC00230BE2 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC624C71EABABDC00230BE2 /* List.swift */; };
+		3DC624CB1EABAC8F00230BE2 /* p01_jsembdner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC624CA1EABAC8F00230BE2 /* p01_jsembdner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		3DC624BB1EABABCE00230BE2 /* NinetyNineSwiftSolutionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinetyNineSwiftSolutionsTests.swift; sourceTree = "<group>"; };
 		3DC624BD1EABABCE00230BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC624C71EABABDC00230BE2 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		3DC624CA1EABAC8F00230BE2 /* p01_jsembdner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = p01_jsembdner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		3DC624AF1EABABCE00230BE2 /* NinetyNineSwiftSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				3DC624C91EABAC4400230BE2 /* Solutions */,
 				3DC624B01EABABCE00230BE2 /* NinetyNineSwiftSolutions.h */,
 				3DC624C71EABABDC00230BE2 /* List.swift */,
 				3DC624B11EABABCE00230BE2 /* Info.plist */,
@@ -87,6 +90,14 @@
 				3DC624BD1EABABCE00230BE2 /* Info.plist */,
 			);
 			path = NinetyNineSwiftSolutionsTests;
+			sourceTree = "<group>";
+		};
+		3DC624C91EABAC4400230BE2 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				3DC624CA1EABAC8F00230BE2 /* p01_jsembdner.swift */,
+			);
+			name = Solutions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC624CB1EABAC8F00230BE2 /* p01_jsembdner.swift in Sources */,
 				3DC624C81EABABDC00230BE2 /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

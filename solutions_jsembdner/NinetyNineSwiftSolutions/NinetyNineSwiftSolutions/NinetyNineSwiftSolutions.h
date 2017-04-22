@@ -1,10 +1,3 @@
-//
-//  NinetyNineSwiftSolutions.h
-//  NinetyNineSwiftSolutions
-//
-//  Created by Jan Sembdner on 22.04.17.
-//  Copyright © 2017 Jan Sembdner. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 

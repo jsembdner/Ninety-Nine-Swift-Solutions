@@ -1,6 +1,6 @@
 
 public class List<T> {
-	var value: T!
+	var value: T
 	var nextItem: List<T>?
 	
 	public convenience init!(_ values: T...) {
