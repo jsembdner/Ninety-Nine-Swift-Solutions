@@ -35,5 +35,10 @@ class NinetyNineSwiftSolutionsTests: XCTestCase {
 		XCTAssertEqual(nil, tenNumList[-1])
 		XCTAssertEqual(nil, oneNumList[1])
 	}
+	
+	func testP04() {
+		XCTAssertEqual(10, tenNumList.length)
+		XCTAssertEqual(1, oneNumList.length)
+	}
     
 }
