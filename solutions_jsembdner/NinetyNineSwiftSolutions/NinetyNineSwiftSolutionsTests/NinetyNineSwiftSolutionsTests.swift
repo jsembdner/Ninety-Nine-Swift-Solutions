@@ -4,13 +4,13 @@ import XCTest
 
 class NinetyNineSwiftSolutionsTests: XCTestCase {
 	
-	var numbers: Array<Int>!
-	var list: List<Int>!
+	var tenNumList: List<Int>!
+	var oneNumList: List<Int>!
 	
     override func setUp() {
         super.setUp()
-		numbers = Array(1...10)
-		list = List.init(numbers)
+		tenNumList = List.init(Array(1...10))
+		oneNumList = List.init([1])
     }
     
     override func tearDown() {
@@ -19,7 +19,13 @@ class NinetyNineSwiftSolutionsTests: XCTestCase {
     }
     
     func testP01() {
-		XCTAssertEqual(10, list.last)
+		XCTAssertEqual(10, tenNumList.last)
+		XCTAssertEqual(1, oneNumList.last)
     }
+	
+	func testP02() {
+		XCTAssertEqual(9, tenNumList.pennultimate)
+		XCTAssertEqual(nil, oneNumList.pennultimate)
+	}
     
 }
