@@ -1,5 +1,6 @@
 
 public class List<T : Equatable>: Equatable {
+	
 	var value: T
 	var nextItem: List<T>?
 	
@@ -14,6 +15,15 @@ public class List<T : Equatable>: Equatable {
 		}
 		value = values.removeFirst()
 		nextItem = List(values)
+	}
+	
+	init(_ list: List<T>) {
+		value = list.value
+		if let nextItem = list.nextItem {
+			self.nextItem = List(nextItem)
+		} else {
+			self.nextItem = nil
+		}
 	}
 	
 }

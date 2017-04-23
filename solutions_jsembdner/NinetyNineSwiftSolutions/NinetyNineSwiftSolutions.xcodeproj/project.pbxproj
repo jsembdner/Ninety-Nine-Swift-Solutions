@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D9213061EACC10E0033D3B2 /* p06_jsembdner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9213051EACC10E0033D3B2 /* p06_jsembdner.swift */; };
 		3DC624B71EABABCE00230BE2 /* NinetyNineSwiftSolutions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC624AD1EABABCE00230BE2 /* NinetyNineSwiftSolutions.framework */; };
 		3DC624BC1EABABCE00230BE2 /* NinetyNineSwiftSolutionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC624BB1EABABCE00230BE2 /* NinetyNineSwiftSolutionsTests.swift */; };
 		3DC624BE1EABABCE00230BE2 /* NinetyNineSwiftSolutions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC624B01EABABCE00230BE2 /* NinetyNineSwiftSolutions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D9213051EACC10E0033D3B2 /* p06_jsembdner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = p06_jsembdner.swift; sourceTree = "<group>"; };
 		3DC624AD1EABABCE00230BE2 /* NinetyNineSwiftSolutions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NinetyNineSwiftSolutions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC624B01EABABCE00230BE2 /* NinetyNineSwiftSolutions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NinetyNineSwiftSolutions.h; sourceTree = "<group>"; };
 		3DC624B11EABABCE00230BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				3DC624CE1EABE4AB00230BE2 /* p03_jsembdner.swift */,
 				3DC624D01EABE7E400230BE2 /* p04_jsembdner.swift */,
 				3DC624D21EABE8CD00230BE2 /* p05_jsembdner.swift */,
+				3D9213051EACC10E0033D3B2 /* p06_jsembdner.swift */,
 			);
 			name = Solutions;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9213061EACC10E0033D3B2 /* p06_jsembdner.swift in Sources */,
 				3DC624D11EABE7E400230BE2 /* p04_jsembdner.swift in Sources */,
 				3DC624CB1EABAC8F00230BE2 /* p01_jsembdner.swift in Sources */,
 				3DC624D31EABE8CD00230BE2 /* p05_jsembdner.swift in Sources */,
@@ -434,6 +438,7 @@
 				3DC624C31EABABCE00230BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC624C41EABABCE00230BE2 /* Build configuration list for PBXNativeTarget "NinetyNineSwiftSolutionsTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +447,7 @@
 				3DC624C61EABABCE00230BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
